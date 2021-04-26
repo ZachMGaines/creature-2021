@@ -1,8 +1,16 @@
 .App {
+  height: 100vh;
   display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-gap: 20px;
+  background: lightblue;
 }
 
-/* TODO: remove **/
-.temp-images {
-  height: 200px;
+.App main {
+  overflow: auto;
+}
+
+img {
+  width: 100px;
+  
 }
