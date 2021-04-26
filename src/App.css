@@ -9,3 +9,8 @@
 .App main {
   overflow: auto;
 }
+
+img {
+  width: 100px;
+  
+}
